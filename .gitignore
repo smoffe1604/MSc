@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+2d_concentration/ddpm-active-matter-128/
+2d_concentration/ddpm-butterflies-upscaling-128/
+
+# VSCode
+.vscode/
+
+# Large data files
+*.csv
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.model
+*.bin
+*.ndjson
+
+# Images (optional, uncomment if you want to exclude)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+the_well/
+ddpm-active-matter-128/
+ddpm-butterflies-upscaling-128/
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Model specific
+*/samples/
+*/logs/
+loss_history.json
+**/temp/
+
+# Virtual Environment
+venv/
+ENV/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
