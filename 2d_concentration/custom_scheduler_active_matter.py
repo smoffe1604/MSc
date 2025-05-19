@@ -70,7 +70,7 @@ class CustomScheduler(DDPMScheduler):
         # See formula (7) from https://arxiv.org/pdf/2006.11239.pdf
         pred_prev_sample = pred_original_sample_coeff * pred_original_sample + current_sample_coeff * sample
 
-        # 6. Add noise with block diagonal covariance
+        # 6. Add noise
         if t > 0:       
             device = model_output.device
             s2 = self._get_variance(t, predicted_variance=predicted_variance)
